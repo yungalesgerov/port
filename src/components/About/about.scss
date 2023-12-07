@@ -1,0 +1,138 @@
+
+
+.about {
+    
+    width: 100%;
+    height: 1300px;
+    background-color: rgb(6, 5, 19);
+    .about-wrapper {
+        width: 80%;
+        height: 90%;
+        border: 4px solid grey;
+        margin: 0 auto;
+        padding-top: 5rem;
+        .about-title-tools {
+            width: 40%;
+            height: 100px;
+            border: 4px solid rgb(86, 126, 86);
+            border-radius: 20px;
+            margin:0 auto;
+            color: rgb(110, 252, 110);
+            font-family: "Dhurjati";
+            h2 {
+                display: block;
+                width: 100%;
+                height: 40%;
+                margin-top: 1.7rem;
+                font-size: 2.2rem;
+                text-shadow: 0 0 1px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 220px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+            }
+                   
+        }
+        .about-title-desc {
+            display: inline-block;
+            width: 80%;
+            height: 200px;
+            // border: 1px solid grey;
+            margin: 0 auto;
+            // background-color:#49FF18;
+            display: flex;
+            // flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            // padding-top: 40px;
+            border: 4px solid rgb(86, 126, 86);
+            border-radius: 20px;
+            margin-top: 40px;
+            padding: 5px;
+            div {
+                // border: 1px solid black;
+                margin-top: 5px;
+                border-radius: 20px;
+                width: 32%;
+                height: 90px;
+                background-color: #23750f;
+                // text-align: center;
+                display: flex;
+                span {
+                    width: 4rem;
+                    height: 2rem;
+                    // border: 1px solid red;
+                    font-size: 28px;
+                    margin: 1.8rem 0 0 1.5rem ;
+                    font-family: 'Dhurjati';
+                    // margin-left: 2rem;
+                }
+            }
+            img {
+                // border: 1px solid red;
+                width: 4rem;
+                // margin-top: 1rem;
+                margin-left: 1rem;
+            }
+        }
+        .about-soft-skills {
+            width: 80%;
+            height: 600px;
+            border: 4px solid grey;
+            margin: 0 auto;
+            margin-top: 40px;
+            color: #FFF;
+            margin-bottom: 60px;
+            // color: rgb(110, 252, 110);
+
+            section {
+                display: flex;
+                .about-hero {
+                    width: 40%;
+                    height: 300px;
+                    border: 4px solid rgb(86, 126, 86);
+                    border-radius: 22px;
+                }
+                .about-hero-desc {
+                    font-family: Rubik;
+                    width: 55%;
+                    height: 244px;
+                    // border: 1px solid red;
+                    border: 4px solid rgb(86, 126, 86);
+                    border-radius: 22px;
+                    margin:1.6rem 0 0 1rem;
+                    color: #FFF;
+                    font-size: 16px;
+                    line-height: 18px;
+                    span {
+                        display: block;
+                        height: 30px;
+                        width: 100%;
+                        padding-top: 14px;
+                        font-size: 22px;
+                    }
+                }
+            }
+            
+            .about-hero-skills {
+                padding-top: 10px;
+                width: 100%;
+                height: 250px;
+                // border:1px solid red;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-size: 22px;
+                margin-top: 20px;
+                span {
+                    display: block;
+                    width: 60%;
+                    height: 40px;
+                    padding-top: 13px;
+                    border: 4px solid rgb(86, 126, 86);
+                    border-radius: 20px;
+                    text-align: center;
+                    font-size: 20px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        
+    }
+}

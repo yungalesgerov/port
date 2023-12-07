@@ -1,0 +1,38 @@
+
+.contact {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    // justify-content: space-between;
+    a {
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        font-family: Dhurjati;
+        text-decoration: none;
+        p {
+            display: block;
+            // border: 1px solid red;
+            width: 50%;
+            height: 30%;
+            font-size: 44px;
+        }
+    }
+    a:nth-child(1) {
+        background-color: #333;
+    }
+    a:nth-child(2) {
+        background-color:#23750f ;
+        img {
+            margin-top: -20px;
+        }
+    }
+    a:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+        transition: transform ease .45s;
+    }
+}

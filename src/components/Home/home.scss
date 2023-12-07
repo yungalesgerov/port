@@ -1,0 +1,88 @@
+.home {
+    width: 100%;
+    height: 800px;
+    background: url('../../img/index.89d3119228d600788910.svg') ;
+    background-size:cover;
+}
+.home-wrapper {
+    display: block;
+    width: 80%;
+    height: 500px;
+    border: 4px solid grey;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    div {
+        // margin-left: 2rem;
+        div {
+            border: 2px solid rgb(86, 126, 86);
+            border-radius: 12px;
+            margin-top: 60px;
+            width: 25rem;
+            height: 180px;
+            font-size: 2.2rem;
+            color: rgb(110, 252, 110);
+            text-align: center;
+        }
+    }
+    .home-img {
+        margin:120px 0 0 215px ;
+        width: 100%;
+        height: 500px;
+        background: url('../../img/dev.png')  no-repeat ;
+    }
+    p {
+        margin-top: 100px;
+        width: 24rem;
+        height: 60px;
+        border: 2px solid rgb(86, 126, 86);
+        border-radius: 12px;
+        color: rgb(110, 252, 110);
+        font-family: 'Dhurjati';
+        font-size: 40px;
+        span {
+            -webkit-animation: slide 2.5s infinite;
+            animation: slide 2.5s infinite;
+            display: inline-block;
+            font-size: 2rem;
+    
+        }
+    }
+    
+    @keyframes slide {
+        0% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0)
+        }
+    
+        15% {
+            -webkit-transform: translate3d(-25%,0,0) rotate(-5deg);
+            transform: translate3d(-25%,0,0) rotate(-5deg)
+        }
+    
+        30% {
+            -webkit-transform: translate3d(20%,0,0) rotate(3deg);
+            transform: translate3d(20%,0,0) rotate(3deg)
+        }
+    
+        45% {
+            -webkit-transform: translate3d(-15%,0,0) rotate(-3deg);
+            transform: translate3d(-15%,0,0) rotate(-3deg)
+        }
+    
+        60% {
+            -webkit-transform: translate3d(10%,0,0) rotate(2deg);
+            transform: translate3d(10%,0,0) rotate(2deg)
+        }
+    
+        75% {
+            -webkit-transform: translate3d(-5%,0,0) rotate(-1deg);
+            transform: translate3d(-5%,0,0) rotate(-1deg)
+        }
+    
+        to {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0)
+        }
+    }
+}
