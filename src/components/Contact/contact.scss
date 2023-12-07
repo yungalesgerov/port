@@ -36,3 +36,14 @@
         transition: transform ease .45s;
     }
 }
+
+@media screen and (max-width:576px) {
+    .contact {
+        a {
+            img {
+                width: 40%;
+            }
+        }
+    }
+    
+}

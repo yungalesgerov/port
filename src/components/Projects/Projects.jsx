@@ -5,7 +5,7 @@ import skan from '../../img/skan.png';
 import {motion} from 'framer-motion';
 const divAnimLeft = {
     hidden: {
-        x: -400,
+        x: -200,
         opacity: 0,
     },
     visible: custom=> ({
@@ -16,7 +16,7 @@ const divAnimLeft = {
 }
 const divAnimRight = {
     hidden: {
-        x: 110,
+        x: 30,
         opacity: 0,
     },
     visible: custom => ({
@@ -28,9 +28,10 @@ const divAnimRight = {
 const Projects = () => {
     return (
         <div className="projects">
-            <div className='about-title'><h2>Проекты</h2></div>
             <div className="projects-wrapper">
+                <div className='about-title'><h2>Проекты</h2></div>
                 <motion.div 
+                    layoutScroll
                     custom={1.5}
                     initial='hidden'
                     whileInView='visible'

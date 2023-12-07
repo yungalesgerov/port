@@ -6,6 +6,7 @@ import js from  '../../img/js.svg';
 import css from  '../../img/css.svg';
 import react from  '../../img/react.svg';
 import html from  '../../img/html5.svg';
+import img from '../../img/photo1701960445.jpeg'
 import {motion} from 'framer-motion'
 
 const divAnimUp = {
@@ -33,7 +34,7 @@ const About = () => {
                 >
                     <section>
                         <div className='about-hero'>
-                            <img src="" alt="" />
+                            <img src={img} alt="" />
                         </div>
                         <div className='about-hero-desc'>
                             <p>
@@ -55,12 +56,12 @@ const About = () => {
                 </motion.div>
                 <div className='about-title-tools'><h2>ИНСТРУМЕНТЫ</h2></div>
                 <div className='about-title-desc' >
-                    <div><img src={html} alt="" /> <span>HTML5</span> </div>
-                    <div><img src={css} alt="" /><span>CSS</span></div>
-                    <div><img src={js} alt="" /><span>Javascript</span></div>
-                    <div><img src={react} alt="" /><span>React</span></div>
-                    <div><img src={node} alt="" /><span>Nodejs</span></div>
-                    <div><img src={sass} alt="" /><span>Sass</span></div>
+                    <div><img src={html} alt="html" /> <span>HTML5</span> </div>
+                    <div><img src={css} alt="css" /><span>CSS</span></div>
+                    <div><img src={js} alt="js" /><span>Javascript</span></div>
+                    <div><img src={react} alt="react" /><span>React</span></div>
+                    <div><img src={node} alt="node" /><span>Nodejs</span></div>
+                    <div><img src={sass} alt="sass" /><span>Sass</span></div>
                 </div>
             </div>
         </div>

@@ -3,18 +3,18 @@ import {motion} from 'framer-motion';
 
 const divAnimLeft = {
     hidden: {
-        x: -400,
+        x: -300,
         opacity: 0,
     },
     visible: custom=> ({
-        x:80,
+        x:0,
         opacity:1,
         transition: {delay: custom*0.2,duration:1.2},
     }),
 }
 const divAnimRight = {
     hidden: {
-        x: 110,
+        x: 30,
         opacity: 0,
     },
     visible: custom => ({

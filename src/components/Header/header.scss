@@ -44,3 +44,28 @@
     }
     
 }
+
+@media  screen and (max-width:576px) {
+    
+    .header {
+        .header-wrapper {
+            width: 350px;
+            ul {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .header {
+        .header-wrapper {
+            ul {
+                li {
+                    button {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
